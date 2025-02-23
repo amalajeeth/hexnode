@@ -78,7 +78,7 @@ const HeaderComponent = () => {
       placement="right"
       onClose={toggleDrawer}
       closeIcon={null}
-      visible={drawerVisible}
+      open={drawerVisible}
       width={screens.xs ? '100%' : '50%'}
     >
       <Row justify="center" gutter={[0, 16]} className="drawer-content">
