@@ -1,0 +1,112 @@
+/* CollapsePanel.css */
+
+/* Panel container */
+.segment-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: white;
+  }
+  
+  /* Title styling */
+  .segment-container .segment-title {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  
+  /* Panel styling */
+  .segment-container .collapse-panel {
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1%;
+    border: 1px solid #ddd; */
+    border-radius: 6px;
+    overflow: hidden;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Default panel header */
+  .segment-container .collapse-panel-header {
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Selected (active) panel header */
+  .segment-container .collapse-panel-header-selected {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 6px;
+  }
+  
+  /* Panel content */
+  .segment-container .collapse-panel-content {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  
+  /* Image styling */
+  .segment-container .collapse-panel-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* Description and points styling */
+  .segment-container .collapse-panel-description {
+    margin-bottom: 16px;
+    color: #000 !important;
+  }
+  
+  .segment-container .collapse-panel-points {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .segment-container .collapse-panel-points li {
+    margin-bottom: 8px;
+    color: #000 !important;
+  }
+  
+  /* Move expand icon to the right */
+  .segment-container .ant-collapse-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+    color: inherit;
+    padding: 10px 16px !important;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Expand icon styling */
+  .segment-container .ant-collapse-arrow {
+    margin-left: 0;
+    margin-right: 8px;
+    color: inherit;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Active (selected) panel header */
+  .segment-container .ant-collapse-item-active .ant-collapse-header {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 6px;
+  }
+  
+  /* Ensure content area stays white when expanded */
+  .segment-container .ant-collapse-item-active .ant-collapse-content {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  

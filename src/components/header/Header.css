@@ -1,0 +1,68 @@
+/* Header.css */
+
+/* Header styles */
+.header {
+    background: #020a19;
+    padding: 0 50px;
+    transition: background 0.3s, color 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header-scrolled {
+    background: #ffffff;
+  }
+  
+  /* Text color classes */
+  .text-white {
+    color: white;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: inherit; 
+    justify-content: center;/* Inherits color from parent */
+  }
+  
+  /* Button styles */
+  .custom-button {
+    background-color: rgb(221, 7, 53);
+    border-color: rgb(221, 7, 53);
+    width: 200px;
+    padding: 20px;
+    border-radius: 2px;
+  }
+  
+  /* Drawer styles */
+  .drawer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .drawer-close-icon {
+    cursor: pointer;
+  }
+  
+  /* Scroll button styles */
+  .scroll-button-container {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Drawer content styles */
+  .drawer-content {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .drawer-login-text {
+    color: red;
+  }

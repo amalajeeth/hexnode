@@ -1,0 +1,22 @@
+/* ImageSection.css */
+
+.kiosk-form {
+    height: 25vh;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    border: 1px solid white;
+  }
+  
+  .kiosk-input {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .kiosk-button {
+    background-color: rgb(221, 7, 53);
+    border-color: rgb(221, 7, 53);
+    width: 75%;
+    padding: 20px;
+    border-radius: 2px;
+  }

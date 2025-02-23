@@ -1,0 +1,83 @@
+/* Main container */
+.segment-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: white;
+  }
+  
+  /* Title styling */
+  .segment-title {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  
+  /* Segmented control wrapper */
+  .segment-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Segmented control customization */
+  .custom-segmented {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    padding: 5px;
+    gap: 5px;
+  }
+  
+  /* Segment item styles */
+  .custom-segmented .ant-segmented-item {
+    flex: 1; /* Equal width for all segments */
+    min-width: 0; /* Prevent overflow */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    white-space: nowrap; /* Keep text in one line */
+    transition: all 0.3s ease;
+  }
+  
+  .custom-segmented .ant-segmented-item-selected {
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  /* Content section */
+  .segment-content {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .segment-title {
+      font-size: 22px;
+    }
+  
+    .custom-segmented {
+      flex-direction: row;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    .custom-segmented .ant-segmented-item {
+      padding: 8px 5px;
+      font-size: 12px;
+      flex: 1;
+    }
+  }
+  

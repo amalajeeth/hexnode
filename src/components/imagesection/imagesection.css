@@ -1,0 +1,34 @@
+/* KioskSection.css */
+
+.kiosk-section {
+    background: #020a19;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .kiosk-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .kiosk-title {
+    color: white !important;
+    margin-bottom: 24px;
+  }
+  
+  /* .kiosk-form {
+    margin-top: 16px;
+  }
+  
+  .kiosk-input {
+    width: 100%;
+    border-radius: 0;
+  }
+   */
+  .kiosk-button {
+    background-color: rgb(221, 7, 53);
+    border-color: rgb(221, 7, 53);
+    width: 100%;
+    padding: 20px;
+    border-radius: 2px;
+  }
