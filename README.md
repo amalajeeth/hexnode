@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Hexnode UEM Solution - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that replicates the Hexnode UEM Solution page using Ant Design components for UI design. The project focuses on responsive design, complex layouts, interactivity, accessibility, and performance optimization.
 
-## Available Scripts
+🚀 Project Overview
+    - Built with React and JavaScript.
+    - Styled using Ant Design components.
+    - Fully responsive layout.
+    - Optimized for performance and accessibility.
 
-In the project directory, you can run:
+📦 Project Structure
 
-### `npm start`
+hexnode/
+├── public/           # Static assets like index.html, favicon, and manifest.json
+├── src/
+│   ├── assets/       # Images, icons, and global styles
+│   ├── components/   # Reusable UI components
+│   ├── App.css       # Main app styles
+│   ├── App.js        # Main app component (root of the application)
+│   ├── App.test.js   # Test cases for App component
+│   ├── index.css     # Global styles
+│   └── index.js      # Entry point of the application
+├── .gitignore        # Files and folders to ignore in Git
+├── README.md         # Project documentation (this file)
+├── package-lock.json # Lock file for npm dependencies
+└── package.json      # Project dependencies and scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚙️ Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up the project locally:
 
-### `npm test`
+1. Clone the repository:
+    - git clone https://github.com/amalajeeth/hexnode.git
+    - cd hexnode
+2. Install dependencies:
+    - Using Yarn :
+         - yarn install
+    -   Or using npm:
+        - npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Running the App
 
-### `npm run build`
+- To start the development server:
+    - Using Yarn: yarn start
+    - Or using npm: npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The app will be available at: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Acknowledgments
+    Ant Design for providing a comprehensive UI library.
+    React for building a powerful and efficient user interface.
 
-### `npm run eject`
+📞 Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- For any questions, feel free to reach out:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Author: Amal M
+    GitHub: amalajeeth
